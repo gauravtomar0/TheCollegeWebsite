@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us</title>
+        <link rel="icon" href="images/rggilogo.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    </head>
+    <body>
+        <section class="sub-header sub-header-image-1">
+            <nav>
+                <a href="index.html"><img src="images/rggilogo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1 style="color: white">About Us</h1>
+        </section>
+
+<!-- --------About us content-------- -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Radha Govind Group of Institutions</h1>
+            <p style="font-weight: 500;
+                      line-height: 22px;
+                      font-size: 16px;
+                      color: black">
+                Radha Govind Group of Institutions, Meerut is One of the Best & Oldest Engineering Colleges of
+                Uttar Pradesh Formerly known as Radha Govind Engineering College,
+                it is affiliated to Dr. A.P.J. Abdul Kalam Technical University (AKTU- formerly known as Uttar 
+                Pradesh Technical University). It is one of the oldest and prestigious institutions in the region,
+                providing graduate & post graduate professional courses in the field of Engineering, Computer Applications 
+                and Management. RGGI also provides two year M.Tech programs in Civil, Computer Science, Electronics &
+                Communication and Mechanical Engineering.
+            </p>
+            </p> 
+                Radha Govind Group of Institutions (RGGI) is a result of sustained effort, perseverance and dedication
+                in imparting state of the art technical education by the visionaries of Shri Krishna Shiksha Prasar Samiti
+                (SKSPS). Registered in 1995, SKSPS has grown steadily and has successfully promoted globally competitive 
+                and value-based professional education in the country under the innovative, forward looking dynamic
+                leadership and vision of Shri Yogesh Tyagi.
+            </p>
+                The campus of Radha Govind Engineering College (RGEC) was inspected by AICTE in the year 2010 and
+                was granted the status of an integrated campus, which was later renamed as Radha Govind Group of Institutions.
+            </p>
+            
+            <a href="https://rggi.edu.in/index.php/about-us" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/aboutrggi.png" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
+ <!-- ------- Footer ------- --> 
+
+
+ <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Address</h4>
+                <p class="add-text">
+                    Radha Govind Group of Institutions, Anuyogipuram,<br>
+                    Garh Road,<br>
+                    Meerut (NCR) U.P.<br>
+                    INDIA - 250004
+                </p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-ul">
+                    <li><a href="http://events.rggi.edu.in/zonal-level-sports-fest/">AKTU Sports Fest</a></li>
+                    <li><a href="https://www.rggi.edu.in/index.php/women-cell">Women Cell</a></li>
+                    <li><a href="https://www.rggi.edu.in/index.php/antiragging-cell">Antiragging Cell</a></li>
+                    <li><a href="http://events.rggi.edu.in/spardha-2018/">Spardha-2018</a></li>
+                    <li><a href="http://events.rggi.edu.in/kaushal-2018-intra-college-project-competition/">Kaushal-2018</a></li>
+                    <li><a href="http://events.rggi.edu.in/dainik-jagran-workshop/">Jagran Workshop</a></li>
+                    <li><a href="http://events.rggi.edu.in/two-days-work-shop-by-microsoft/">Microsoft Workshop</a></li>
+                    <li><a href="http://events.rggi.edu.in/workshop-on-git/">Workshop on Git</a></li>
+                </ul>
+                
+            </div>
+            <div class="footer-col">
+                
+            </div>
+            
+            <div class="footer-col">
+                <h4>Follow us</h4>
+                <div class = "social-links">
+                    <a href="https://www.facebook.com/rggi5"> <i class = "fab fa-facebook-f"></i></a><br><br>
+                    <a href="https://twitter.com/webrggi"> <i class = "fab fa-twitter"></i></a><br><br>
+                    <a href="https://www.youtube.com/channel/UC_7tVdRKfIKGy7-GgOGu5ow"> <i class = "fab fa-youtube"></i></a><br><br>
+                    <a href="https://www.linkedin.com/in/radha-govind-group-of-institutions-a07271ab/"> <i class = "fab fa-linkedin-in"></i></a><br><br>
+                    <a href="https://webrggi-blog.tumblr.com/"> <i class = "fab fa-tumblr"></i></a><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</footer>
+
+
+
+<!-- -------------JavaScript for toggle menu------------ -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
